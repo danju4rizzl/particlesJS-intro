@@ -1,0 +1,46 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Default  styles */
+body {
+  font-family: 'Alata', sans-serif;
+  font-size: 65%;
+  text-transform: uppercase;
+  letter-spacing: 18px;
+  line-height: 1.1;
+  background: #2f3640;
+  color: #ffffff;
+}
+
+/* Set the image with gradient */
+.section {
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(53, 59, 72, 0.2),
+      rgba(47, 54, 64, 0.98)
+    ),
+    url('/assets/img.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+/* Center the text content  */
+.section-inner {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section-title {
+  font-size: 8vmax;
+}
+
+.section-subtitle {
+  font-size: 1.5vmax;
+}
